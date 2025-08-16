@@ -93,6 +93,8 @@ target/hello-1.0.jar
 
 ✅ Console Output with BUILD SUCCESS
 ![hello ](Screenshot1-png.png)
+![hello](Screenshot2-png.png)
+
 ✅ Generated hello-1.0.jar
 
 
