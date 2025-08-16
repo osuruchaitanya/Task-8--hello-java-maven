@@ -10,7 +10,6 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <!-- ✅ Global properties -->
   <properties>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
@@ -18,36 +17,18 @@
   </properties>
 
   <build>
-    <!-- ✅ Explicit resource encoding (removes red warnings) -->
-    <resources>
-      <resource>
-        <directory>src/main/resources</directory>
-        <filtering>false</filtering>
-        <encoding>UTF-8</encoding>
-      </resource>
-    </resources>
-
-    <testResources>
-      <testResource>
-        <directory>src/test/resources</directory>
-        <filtering>false</filtering>
-        <encoding>UTF-8</encoding>
-      </testResource>
-    </testResources>
-
     <plugins>
-      <!-- ✅ Compiler plugin for Java 21 -->
+      <!-- ✅ Compiler Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
           <release>21</release>
-          <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
 
-      <!-- ✅ Resources plugin (explicit UTF-8) -->
+      <!-- ✅ Resources Plugin (fixes red warnings) -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
