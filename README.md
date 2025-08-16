@@ -1,15 +1,6 @@
-Got it 👍 — I’ll give you a clean README.md without the submission link or interview questions.
+# Run a simple  Java Maven Build job in  Jenkins 
 
-
----
-
-📄 README.md
-
-# Hello Java Maven - Jenkins CI/CD Demo
-
-This is a simple *Java HelloWorld application* built with *Maven* and integrated into *Jenkins* as part of a DevOps internship task.
-
----
+This is a simple *Java HelloWorld application* built with *Maven* and integrated with Jenkins.
 
 ## 📌 Project Overview
 - A basic Java program that prints:
@@ -95,6 +86,7 @@ target/hello-1.0.jar
 ![job](Screenshot8-png.png)
 ![job](Screenshot9-png.png)
 ✅ Console Output with BUILD SUCCESS
+![hello](Screenshot10-png.png)
 ![hello ](Screenshot1-png.png)
 ![hello](Screenshot2-png.png)
 ![hello](Screenshot3-png.png)
@@ -104,7 +96,3 @@ target/hello-1.0.jar
 
 
 ---
-
-This version is *clean, professional, and submission-ready* ✅  
-
-Do you want me to also add a **JUnit test file (HelloWorldTest.java)** so your Jenkins log won’t show “No tests to run”?
