@@ -90,14 +90,14 @@ target/hello-1.0.jar
 📸 Screenshots
 
 ✅ Jenkins Job Configuration
-
+![job](Screenshot6-png.png)
 ✅ Console Output with BUILD SUCCESS
 ![hello ](Screenshot1-png.png)
 ![hello](Screenshot2-png.png)
 ![hello](Screenshot3-png.png)
 ![hello](Screenshot4-png.png)
 ✅ Generated hello-1.0.jar
-!{jar](Screenshot5-png.png)
+![jar](Screenshot5-png.png)
 
 
 ---
